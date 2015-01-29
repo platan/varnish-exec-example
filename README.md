@@ -1,4 +1,4 @@
-# Varnish Exec Examples
+# Varnish Exec Examples [![Build Status](https://travis-ci.org/platan/varnish-exec-example.svg)](https://travis-ci.org/platan/varnish-exec-example)
 This is an example of using [Varnish Exec](https://github.com/platan/varnish-exec) with [JUnit](http://junit.org/) and [TestNG](http://testng.org/)
 
 ## Requirements
