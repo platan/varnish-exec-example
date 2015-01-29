@@ -1,0 +1,5 @@
+<esi:include src="/header" />
+<body>
+    <p>Hello World!</p>
+</body>
+<esi:include src="/footer" />

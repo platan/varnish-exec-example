@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+before_install:
+ - sudo apt-get update -qq
+ - sudo RUNLEVEL=1 apt-get install -qq varnish
+
+script: ./gradlew test --info

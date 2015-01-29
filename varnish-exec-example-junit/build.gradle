@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '0.1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-velocity:1.1.9.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-test:1.1.9.RELEASE'
+
+    testCompile 'junit:junit:4.11'
+    testCompile 'com.google.guava:guava:18.0'
+    testCompile 'com.github.platan:varnish-exec-junit:0.1.0'
+}

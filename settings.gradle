@@ -1,0 +1,2 @@
+include 'varnish-exec-example-junit'
+include 'varnish-exec-example-testng'
